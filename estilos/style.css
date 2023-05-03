@@ -35,6 +35,8 @@ img{
 }
 div#be{
    background-color: aquamarine;
+   padding: 10px;
+
 }
 div#email > h1{
     margin: 10px;
