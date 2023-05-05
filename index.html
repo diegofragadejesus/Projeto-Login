@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     
 
     <title>Login</title>
@@ -19,17 +21,21 @@
                     <form action="login.php" method="post" autocomplete="on">
                         <div id="email">
                             <h1> Login</h1>
-                            <p>Seja Bem-vindo(a) novamente, faça login para poder acessar sua conta e poder fazer as configurações no seu ambiente. </p>
-                            <div id="be">
-                                <label for="iemal">Email :</label>
-                                <input type="text" name="email" id="iemal">
+                            <p>Seja Bem-vindo(a) novamente, faça login para poder acessar sua conta e poder fazer as configurações no seu ambiente. </p> 
+                            <div id="be" class="tp">
+                                <label for="iemal"><span class="material-icons" id="person">
+                                    person
+                                    </span></label>
+                                <input type="text" name="email" id="iemal" class="paineo" required minlength="8" maxlength="50" autocomplete="email">
                             </div>
-                        </div> <br>
-                        <div id="bs">
-                            <label for="isenha">Senha :</label>
-                            <input type="password" name="senha" id="isenha">
                         </div>
-                        <input type="submit" value="Enviar">
+                        <div id="bs" class="tp">
+                            <label for="isenha"><span class="material-icons" id="chave">
+                                 lock
+                                </span></label>
+                            <input type="password" name="senha" id="isenha" class="paineo"  required minlength="8" maxlength="20">
+                        </div>
+                        <input type="submit" value="Entrar" id="ev">
                         
                     </form>
                 </div>
