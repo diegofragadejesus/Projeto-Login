@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="stylesheet" href="estilos/midia-quireis.css">
     
 
     <title>Login</title>
 </head>
-<body>
+<body >
     <main>
         <section>
             <div id="foto">
-            <img src="imagens/pattern-gc49cc95ba_1280.jpg" alt="">
+            
             </div >
                 <div id="login">
-                    <form action="login.php" method="post" autocomplete="on">
+                    <form action="login.php" method="post" autocomplete="on" >
                         <div id="email">
                             <h1> Login</h1>
                             <p>Seja Bem-vindo(a) novamente, faça login para poder acessar sua conta e poder fazer as configurações no seu ambiente. </p> 
@@ -35,7 +36,10 @@
                                 </span></label>
                             <input type="password" name="senha" id="isenha" class="paineo"  required minlength="8" maxlength="20">
                         </div>
-                        <input type="submit" value="Entrar" id="ev">
+                        <input type="submit" value="Entrar" class="ev"> <br>
+                        <input type="button" value=" Esqueci minha Senha  " class="ev" id="bt"> <span class="material-icons" id="mg">
+                            mail
+                            </span>
                         
                     </form>
                 </div>
