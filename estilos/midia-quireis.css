@@ -1,5 +1,94 @@
 @charset "UFT-8";
 
+@media screen and (min-width: 1205px) {
+    body{
+    background-color: rgba(12, 52, 4, 0.591);
+    }
+    section{
+       
+        border-radius: 15px;
+        height: 403px;
+        width: 760px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-80%, -50%)
+        }
+
+    #foto{
+
+            height: 404px;
+            width: 465px;
+            background-image: url(../imagens/pattern-gc49cc95ba_1280.jpg);
+            box-shadow: 2px 0px 5px  rgba(0, 0, 0, 0.581);
+            border-radius: 0px  10px  10px  0px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(365px, -50%)
+        }
+    div#email h1{
+
+        font-size:2.5em ;
+        }
+    div#email p{
+        font-size: 1.3em;
+        margin-bottom: 20px;
+        }
+     .paineo{
+        width: 500px;
+        margin-left: -10px;
+     }
+     .tp{
+        width: 545px;
+        margin-bottom: 10px;
+     }
+
+     #person{
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        left: -50%;
+        transform: translate(269px, 40%);
+        font-size: 40px;
+        margin-top: -19px;
+        color: white;
+      } 
+      #chave{
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        left: -50%;
+        transform: translate(268px, 40%);
+        font-size: 40px;
+        margin-top: -19px;
+        color: rgb(255, 253, 253);
+      }
+      .ev{
+        background-color: rgba(46, 237, 161, 0.439);
+        width: 500px;
+        height: 30px;
+        border-radius: 10px;
+        margin-bottom: 5px;      
+    }
+    #mg{
+        position: relative;
+        left: -50%;
+        top: 50%;
+        transform: translate(200px , 6px);
+        font-size: 20px;
+        color: rgb(57, 53, 53);
+    }
+    #bt{
+        margin-left: 25px;
+    }
+
+}
+
 @media screen and (min-width: 800px) and (max-width: 1200px) {
     
     body{
@@ -63,7 +152,7 @@
         transform: translate(169px, 40%);
         font-size: 40px;
         margin-top: -19px;
-        color: white;
+        color: rgb(255, 254, 254);
       }
     
        

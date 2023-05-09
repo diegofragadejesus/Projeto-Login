@@ -32,8 +32,8 @@ section{
 }
 #foto{
     background: url(../imagens/pattern-gc49cc95ba_1280.jpg) no-repeat   center center ;
-    background-size: 100vw;
-   width: 270px;
+    background-size: 150%;
+   width: 260px;
    height: 200px;
    inline-size: 270px;
    border-radius: 10px  10px  0px  0px;
@@ -60,6 +60,7 @@ div#email > h1{
 }
 div#email > p{
     padding: 10px;
+    text-indent: 20px;
    
 
 }
