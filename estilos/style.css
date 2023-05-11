@@ -6,116 +6,92 @@
     margin:0px;
     padding:0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
 }
- body{
-    background-color: rgba(49, 32, 59, 0.583)
- }
-
+body , html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width:100vw ;
+}
 main{
+    position :relative;
+    height: 100vh;
+    width:100vw;
+}
+section#login{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     overflow: hidden;
+
+    background-color:white;
+    width:250px;
+    height:500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514) ;
 
 }
-section{
-
-    border-radius: 15px;
-    height: 550px;
-    width: 270px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-    
-    
-}
-#foto{
-    background: url(../imagens/pattern-gc49cc95ba_1280.jpg) no-repeat   center center ;
-    background-size: 150%;
-   width: 260px;
-   height: 200px;
-   inline-size: 270px;
-   border-radius: 10px  10px  0px  0px;
-}
-.tp{
+section#login > div#imagem{
     display: block;
-    margin: auto;
-    border-radius: 7px 12px 12px 7px  ;
-    background-color: rgb(153, 63, 237);
-   padding-top: 3px;
-   padding-bottom: 3px;
-   width: 247px;
-
-
+   background: #5f2c82 url(../imagens/pattern-gc49cc95ba_1280.jpg) no-repeat ; 
+   background-position: left bottom;
+    background-size: cover;
+   height: 200px;
 }
-div#email{
-  margin-bottom: 4px;
-  
+section#login > div#formulario{
+    display: block;
+    padding:10px;
 }
-div#email > h1{
-    margin: 10px;
-    font-weight: 900;
-
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
 }
-div#email > p{
-    padding: 10px;
-    text-indent: 20px;
-   
-
+div#formulario > p {
+    font-size: 0.8em;
 }
-#bs{
-    margin-bottom: 5px;
+form > div.campo{
+    background-color: #5f2c82;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
 }
-.paineo{
-    height: 36px;
-    border:1px solid  rgba(137, 43, 226, 0.77);
-    border-radius: 7px 12px 12px 7px;
-    width: 194px;
-   
-
+form > div.campo > label{
+    display: none;
 }
-.paineo:hover{
-    background-color: rgba(127, 255, 212, 0.847);
-  
-  
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
 }
-#person{
-  display: inline-block;
-  position: relative;
-  top: 50%;
-  left: -50%;
-  transform: translate(125px, 40%);
-  font-size: 40px;
-  margin-top: -19px;
-  color: white;
+form > input[type=submit]:hover{
+    background-color:#1f4241 ;
 }
-#chave{
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    left: -50%;
-    transform: translate(125px, 40%);
-    font-size: 40px;
-    margin-top: -19px;
-    color: rgb(243, 240, 240);
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height:40px ;
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: #fbfbfb;
+    color: #1f4241;
+    border: solid #377a777e;
+    border-radius: 5px;
+    text-decoration: none;
 }
-.ev{
-    background-color: rgba(46, 237, 161, 0.439);
-    width: 250px;
-    height: 30px;
-    border-radius: 10px;
-    margin-bottom: 5px;
+form > a.botao:hover{
+    background-color: #41a09dd6;
+    color:#1a3736;
 }
-.ev:hover{
-    background-color: rgba(28, 189, 127, 0.931);
-    
-}
-#mg{
-    position: relative;
-    left: -50%;
-    top: 50%;
-    transform: translate(220px , -30px);
-    font-size: 20px;
-    color: rgb(57, 53, 53);
+form >a.botao > span{
+    font-size: 0.9em;
 }

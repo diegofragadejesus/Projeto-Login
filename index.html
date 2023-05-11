@@ -14,36 +14,37 @@
 </head>
 <body >
     <main>
-        <section>
-            <div id="foto">
-            
-            </div >
-                <div id="login">
-                    <form action="login.php" method="post" autocomplete="on" >
-                        <div id="email">
-                            <h1> Login</h1>
-                            <p>Seja Bem-vindo(a) novamente, faça login para poder acessar sua conta e poder fazer as configurações no seu ambiente. </p> 
-                            <div id="be" class="tp">
-                                <label for="iemal"><span class="material-icons" id="person">
-                                    person
-                                    </span></label>
-                                <input type="text" name="email" id="iemal" class="paineo" required minlength="8" maxlength="50" autocomplete="email">
-                            </div>
-                        </div>
-                        <div id="bs" class="tp">
-                            <label for="isenha"><span class="material-icons" id="chave">
-                                 lock
-                                </span></label>
-                            <input type="password" name="senha" id="isenha" class="paineo"  required minlength="8" maxlength="20">
-                        </div>
-                        <input type="submit" value="Entrar" class="ev"> <br>
-                        <input type="button" value=" Esqueci minha Senha  " class="ev" id="bt"> <span class="material-icons" id="mg">
-                            mail
+       <section id="login">
+            <div id="imagem">
+             
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. faça login para acessar sua conta e poder fazer as configurações no seu ambinte. </p>
+                <form action="" method="post">
+                    <div class="campo">
+                        <span class="material-icons">
+                            perm_identity
                             </span>
-                        
-                    </form>
-                </div>
-        </section>
+                        <input type="email" name="email" id="iemail" required placeholder="seu email" minlength="30">
+                        <label for="iemail">senha</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">
+                            vpn_key
+                            </span>
+                        <input type="password" name="senha" id="isenha" required placeholder="sua senha" minlength="8" maxlength="20">
+                        <label for="isenha"> login</label>
+                    </div>
+                    <input type="submit" value="entrar">
+                    <a href="esquesisenha.html" class="botao">esqueci minha senha <span class="material-icons">
+                        mail_lock
+                        </span></a> 
+
+                </form>
+            </div>
+       </section>
+          
     </main>
 </body>
 </html>
